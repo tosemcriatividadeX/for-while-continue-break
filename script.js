@@ -15,3 +15,21 @@ while (contagem < 10) {
 
     contagem++
 }
+
+for (let contacao = 5; contacao > 0; contacao--) {
+    console.log(contacao)
+}
+
+const numero = 6
+for (let contaracao = 0; contaracao <= 10; contaracao++) {
+    console.log(`6 x ${contaracao} = ${numero * contaracao}`)
+}
+
+for (let conta = 1; conta <= 30; conta++) {
+    if (conta % 3 !== 0) continue
+    console.log(conta)
+}
+
+for (let numeru = 1; numeru <= 10; numeru++) {
+    for (numeru1 = 1; numeru1 <= 10; numeru1++)
+}
